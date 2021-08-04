@@ -1,0 +1,21 @@
+{
+  "name": "multicall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/script.js",
+  "scripts": {
+    "start": "node app/script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomi_Ohl",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "ethers": "^5.4.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.17"
+  }
+}
